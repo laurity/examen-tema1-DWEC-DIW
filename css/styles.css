@@ -20,6 +20,9 @@ button{
     border: none;
     color: white
 }
+button:hover{ /*Añade un borde si pasas el ratón por encima*/
+    border: 1px black solid;
+}
 .result{
     margin-top: 20px; 
 }
