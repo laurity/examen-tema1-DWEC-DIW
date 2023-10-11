@@ -2,6 +2,7 @@
  * 
  * @author Laura López Alonso
  * GitHub: 
+ * 
  */
 
 document.addEventListener("DOMContentLoaded", () => {
