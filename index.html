@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Área de Rectángulo</title>
+    <link rel="stylesheet" href="./css/styles.css"> <!--Llamamos al archivo de estilos-->
+    <link rel="icon" href="./assets/favicon.ico" type="x/icon"> <!--Llamamos al icono-->
+</head>
+<body>
+    <h1>Calculadora de área, perímetro y diagonal de un rectángulo</h1>
+    <br/>
+    <label for="length">Longitud:</label><!--Título del input. El for hace referencia al id del input-->
+    <input id="length" type="number" placeholder="Ingrese longitud..."> <!--El atributo placeholder muestra un texto guiado por pantalla-->
+        <br/>
+    <label for="width">Ancho:</label>
+    <input id="width" type="number" placeholder="Ingrese ancho...">
+        <br/>
+    <button id="calculate">Calcular</button>
+
+    <div id="result" class="result"></div> <!--Donde se mostrarán los resultados-->
+
+    <script src="./script/script.js"></script> <!--Llamamos a la script para que se apliquen las funciones del texto-->
+</body>
+</html>
