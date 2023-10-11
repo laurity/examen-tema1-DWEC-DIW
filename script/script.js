@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
       result.innerHTML =       `<p class="text">Área del rectángulo : ${area.toFixed(2)}</p> 
                                 <p class="text">Perímetro del rectángulo: ${perimetrer.toFixed(2)}</p>
                                 <p class="text">Diagonal del rectángulo: ${diagonal.toFixed(2)}</p>`;
-      //.toFixed para redondear los decimales
-      //${}Introduce los valores de las constantes
+                                 //.toFixed para redondear los decimales
+                                //${}Introduce los valores de las constantes
     } else {
       //En caso de error, se mostrará el siguiente mensaje
       result.textContent = `Ingrese valores válidos`;
